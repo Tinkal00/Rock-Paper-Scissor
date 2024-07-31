@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(228, 225, 225);
+    margin: 0px;
+}
+#d1{
+    height: 100px;
+    margin: 3px 3px 3px 3px;
+    background-color: rgb(44, 43, 43);
+    color: whitesmoke;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(35, 230, 230);
+}
+h1{
+    margin: 0px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+#d2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+  }
+#rock{
+    height: 160px;
+    width: 200px;
+    margin: 10px;
+    background-image: url(rock.jpg);
+    background-size: cover;
+    transform: rotate(90deg);
+    border: 5px solid rgb(228, 225, 225);
+}
+#rock:hover{
+    border: 5px solid black;
+}
+#paper{
+    height: 160px;
+    width: 200px;
+    margin: 10px;
+    background-image: url(paper.jpg);
+    background-size: cover;
+    transform: rotate(90deg);
+    border: 5px solid rgb(228, 225, 225);
+}
+#paper:hover{
+    border: 5px solid black;
+}
+#scissor{
+    height: 160px;
+    width: 200px;
+    margin: 10px;
+    background-image: url(scissors.jpg);
+    background-size: cover;
+    transform: rotate(90deg);
+    border: 5px solid rgb(228, 225, 225);
+}
+#scissor:hover{
+    border: 5px solid black;
+}
+#d3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: crimson;
+}
+#h31{
+    margin-right: 180px;
+}
+#h33{
+    margin-left: 180px;
+}
+#d4{
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    margin-top: 50px;
+}
+#d5{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#d51{
+    height: 40px;
+    width: 500px;
+    text-align: center;
+    margin-top: 5px;
+    background-color: beige;
+}
